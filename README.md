@@ -5,4 +5,4 @@ BMI
 METABOLISM SCORE
 OVERDOSE AMOUNT IN GRAMS
 
-I will be remaking this in C++ 
+This started off as being programmed in Python but I remade it in C++ for those of you who like that more.
