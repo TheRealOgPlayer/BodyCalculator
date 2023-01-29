@@ -1,0 +1,7 @@
+﻿  bodycalculator.cpp
+C:\Users\Travis\Desktop\WhatItTakesForYouToDie\box\bodycalculator\bodycalculator.cpp(37,21): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Travis\Desktop\WhatItTakesForYouToDie\box\bodycalculator\bodycalculator.cpp(38,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Travis\Desktop\WhatItTakesForYouToDie\box\bodycalculator\bodycalculator.cpp(42,15): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Travis\Desktop\WhatItTakesForYouToDie\box\bodycalculator\bodycalculator.cpp(70,26): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Travis\Desktop\WhatItTakesForYouToDie\box\bodycalculator\bodycalculator.cpp(83,26): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  bodycalculator.vcxproj -> C:\Users\Travis\Desktop\WhatItTakesForYouToDie\box\bodycalculator\x64\Debug\bodycalculator.exe
