@@ -1,8 +1,8 @@
 # BodyCalculator
-This is a body calculator that I made with Python, it will tell you a couple of things:
+This is a body calculator that I made with Python, it will tell you a couple of things:\n
 
-BMI 
-METABOLISM SCORE
-OVERDOSE AMOUNT IN GRAMS
+BMI \n
+METABOLISM SCORE \n
+OVERDOSE AMOUNT IN GRAMS \n
 
 This started off as being programmed in Python but I remade it in C++ for those of you who like that more.
