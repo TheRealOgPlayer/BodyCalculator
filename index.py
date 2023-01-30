@@ -7,8 +7,8 @@ os.system('cls')
 name = input("What is your name? \n")
 sexInput = input("What is your sex? (M=Male, F=Female) \n")
 age = float(input("What is your age? \n"))
-feet = float(input("What is your hight: Feet: \n"))
-inches = float(input("What is Your hight: Inches: \n"))
+feet = float(input("What is your height: Feet: \n"))
+inches = float(input("What is Your height: Inches: \n"))
 hight = (feet * 12) + inches 
 weight = float(input("What is your weight in Pounds? \n"))
 os.system('cls')
@@ -56,6 +56,7 @@ if sex == "Male":
     print(name, " You will need", (0.00015 * weightInKG) * 1000 ,"Grams of Caffeine to die")
     print(name, " You will need", (0.00075 * weightInKG) * 1000 ,"Grams of Table Salt to die")
     print(name, " You will need", (0.000636 * weightInKG) * 1000 ,"Grams of IBuprofen to die")
+    print(name, "You will Die at the age of: "(BMI + metabolism) * 0.04818372569130743311024716691492)
 
     exit()
 
@@ -72,5 +73,6 @@ if sex == "Female":
     print(name, " You will need", (0.00015 * weightInKG) * 1000 ,"Grams of Caffeine to die")
     print(name, " You will need", (0.00075 * weightInKG) * 1000 ,"Grams of Table Salt to die")
     print(name, " You will need", (0.000636 * weightInKG) * 1000 ,"Grams of IBuprofen to die")
+    print(name, "You will Die at the age of: "(BMI + metabolism) * 0.04818372569130743311024716691492)
 
     exit()
