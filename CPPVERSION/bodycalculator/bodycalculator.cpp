@@ -36,28 +36,28 @@ int main()
     float hight = (feet * 12) + inches;
     float hightInCM = hight * 2.5;
     float weightInKG = weight * 0.45359237;
-    
+
 
     //Gets User BMI
     float BMI = (703 * weight) / pow(hight, 2);
 
     //See Whats The User Weight Is:
-    if(BMI <= 18.5)
+    if (BMI <= 18.5)
     {
         string BMIH = "Underweight";
         cout << name << ", your BMI is: " << BMI << " Meaning you are, " << BMIH;
     }
-    else if(BMI >= 18.5 && BMI <= 24.9)
+    else if (BMI >= 18.5 && BMI <= 24.9)
     {
         string BMIH = "Normal Weight";
         cout << name << ", your BMI is: " << BMI << " Meaning you are, " << BMIH << "\n";
     }
-    else if(BMI >= 25 && BMI <= 29.9) 
+    else if (BMI >= 25 && BMI <= 29.9)
     {
         string BMIH = "Over Weight";
         cout << name << ", your BMI is: " << BMI << " Meaning you are, " << BMIH << "\n";
     }
-    else if( BMI >= 30)
+    else if (BMI >= 30)
     {
         string BMIH = "Obese";
         cout << name << ", your BMI is: " << BMI << " Meaning you are, " << BMIH << "\n";
@@ -75,7 +75,7 @@ int main()
         cout << name << ", You will need " << (0.00015 * weightInKG) * 1000 << " Grams of Caffeine to die.\n";
         cout << name << ", You will need " << (0.00075 * weightInKG) * 1000 << " Grams of Table Salt to die.\n";
         cout << name << ", You will need " << (0.000636 * weightInKG) * 1000 << " Grams of IBuprofen to die.\n";
-        cout << name << "You will Die at the age of:" << BMI + metabolism) * 0.04818372569130743311024716691492;
+        cout << name << "You will Die at the age of:" << (BMI + metabolism) * 0.04818372569130743311024716691492;
 
         return 0;
     }
@@ -90,12 +90,12 @@ int main()
         cout << name << ", You will need " << (0.00015 * weightInKG) * 1000 << " Grams of Caffeine to die.\n";
         cout << name << ", You will need " << (0.00075 * weightInKG) * 1000 << " Grams of Table Salt to die.\n";
         cout << name << ", You will need " << (0.000636 * weightInKG) * 1000 << " Grams of IBuprofen to die.\n";
-        cout << name << "You will Die at the age of:" << BMI + metabolism) * 0.04818372569130743311024716691492;
+        cout << name << "You will Die at the age of:" << (BMI + metabolism) * 0.04818372569130743311024716691492;
 
         return 0;
     }
     else {
-        cout << "Sex was not correct, Needs to be Male Or Female not " << sexInput <<"\n Don't forget it is CAP sensitive.\n";
+        cout << "Sex was not correct, Needs to be Male Or Female not " << sexInput << "\n Don't forget it is CAP sensitive.\n";
         return 0;
     }
 
