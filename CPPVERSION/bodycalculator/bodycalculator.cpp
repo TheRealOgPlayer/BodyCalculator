@@ -23,9 +23,9 @@ int main()
     cin >> sexInput;
     cout << "What is your age? \n";
     cin >> age;
-    cout << "What is your hight: Feet: \n";
+    cout << "What is your height: Feet: \n";
     cin >> feet;
-    cout << "What is your hight: Inches: \n";
+    cout << "What is your height: Inches: \n";
     cin >> inches;
     cout << "What is your weight? \n";
     cin >> weight;
@@ -75,6 +75,7 @@ int main()
         cout << name << ", You will need " << (0.00015 * weightInKG) * 1000 << " Grams of Caffeine to die.\n";
         cout << name << ", You will need " << (0.00075 * weightInKG) * 1000 << " Grams of Table Salt to die.\n";
         cout << name << ", You will need " << (0.000636 * weightInKG) * 1000 << " Grams of IBuprofen to die.\n";
+        cout << name << "You will Die at the age of:" << BMI + metabolism) * 0.04818372569130743311024716691492;
 
         return 0;
     }
@@ -89,6 +90,7 @@ int main()
         cout << name << ", You will need " << (0.00015 * weightInKG) * 1000 << " Grams of Caffeine to die.\n";
         cout << name << ", You will need " << (0.00075 * weightInKG) * 1000 << " Grams of Table Salt to die.\n";
         cout << name << ", You will need " << (0.000636 * weightInKG) * 1000 << " Grams of IBuprofen to die.\n";
+        cout << name << "You will Die at the age of:" << BMI + metabolism) * 0.04818372569130743311024716691492;
 
         return 0;
     }
