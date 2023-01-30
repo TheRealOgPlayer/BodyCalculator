@@ -73,6 +73,6 @@ if sex == "Female":
     print(name, " You will need", (0.00015 * weightInKG) * 1000 ,"Grams of Caffeine to die")
     print(name, " You will need", (0.00075 * weightInKG) * 1000 ,"Grams of Table Salt to die")
     print(name, " You will need", (0.000636 * weightInKG) * 1000 ,"Grams of IBuprofen to die")
-    print(name, "You will Die at the age of: ", (BMI + metabolism) * 0.04818372569130743311024716691492)
+    print(name, " You will Die at the age of: ", (BMI + metabolism) * 0.04818372569130743311024716691492)
 
     exit()
