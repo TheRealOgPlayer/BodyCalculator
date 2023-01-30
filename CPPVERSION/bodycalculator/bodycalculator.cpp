@@ -69,7 +69,7 @@ int main()
     {
         float metabolism = 66.5 + (13.75 * weightInKG) + (5.003 * hightInCM) - (6.775 * age);
 
-        cout << name << ", Your Metabolism is: " << metabolism << "\n";
+        cout << name << ", Your average calories burnt per day, by doing nothing is: " << metabolism << "\n";
         cout << name << ", You will need " << weight * 13.5 << " Grams of Sugure to die.\n";
         cout << name << ", You will need " << (0.00000025 * weightInKG) * 1000 << " Grams of Adderll to die.\n";
         cout << name << ", You will need " << (0.00015 * weightInKG) * 1000 << " Grams of Caffeine to die.\n";
@@ -83,7 +83,7 @@ int main()
         float metabolism = 655.1 + (9.563 * weightInKG) + (1.850 * hightInCM) - (4.676 * age);
 
 
-        cout << name << ", Your Metabolism is: " << metabolism << "\n";
+        cout << name << ", Your average calories burnt per day, by doing nothing is: " << metabolism << "\n";
         cout << name << ", You will need " << weight * 13.5 << " Grams of Sugure to die.\n";
         cout << name << ", You will need " << (0.00000025 * weightInKG) * 1000 << " Grams of Adderll to die.\n";
         cout << name << ", You will need " << (0.00015 * weightInKG) * 1000 << " Grams of Caffeine to die.\n";
