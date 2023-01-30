@@ -29,9 +29,10 @@ int main()
     cin >> inches;
     cout << "What is your weight? \n";
     cin >> weight;
+    system("cls");
+
     cout << "WARNING: Although our calculator may say you can handle more then you think. A lot more factors go into it and we highly recommend talking to a doctor before trying anything to this amount. This is for fun and is not scientific \n";
 
-    system("cls");
 
     float hight = (feet * 12) + inches;
     float hightInCM = hight * 2.5;
