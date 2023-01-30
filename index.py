@@ -50,7 +50,7 @@ if sex == "Male":
     metabolism = 66.5 + (13.75 * weightInKG) + (5.003 * hightInCM) - (6.775 * age)
 
 
-    print("Your metabolism is: " , metabolism, "\n")
+    print("Your average calories burnt per day, by doing nothing is: " , metabolism, "\n",)
     print(name, " You will need", weight * 13.5, "Grams of Sugure to die")
     print(name, " You will need", (0.00000025 * weightInKG) * 1000 , "Grams of Adderll to die")
     print(name, " You will need", (0.00015 * weightInKG) * 1000 ,"Grams of Caffeine to die")
