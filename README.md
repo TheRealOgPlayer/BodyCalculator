@@ -2,7 +2,7 @@
 
 This Is A Body Calculator That I Made For Fun Using Python And C++
 
-# List Of Items The Program Tells You As a Lethal Dose Of Consumtion:
+# List Of Items The Program Tells You As a Lethal Dose Of Consumtion
 
 BMI 
 METABOLISM SCORE,
